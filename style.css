@@ -1,8 +1,54 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-}
+
+body{
+
+    background-color:#f2aea5;
+    transition:4s;
+  
+    position:relative;
+    animation:example1;
+    animation-duration:7s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100vh;
+    overflow-x:hidden;
+    
+  }
+    
+  
+  body.number1{
+  
+     background: #ffffff;
+    
+    
+  }
+  @keyframes example1{
+    0%{
+     
+      background:#f2aea5;
+  
+    }
+    50%{
+      background:#fff0da;
+      border-radius: 100px;
+     
+    }
+    75%{
+      background:#ffddcc;
+      border-radius: 100px;
+     
+    }
+    90%{
+      background:#e88c7d;
+    }
+    100%{
+        background:#f2aea5;
+    }
+  }
+  
+  
 
 .container {
     width: 80%;
