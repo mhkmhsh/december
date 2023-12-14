@@ -3,7 +3,7 @@ let relationship = prompt('provide a relation (ex: mother, father, friend, girlf
 let noun = prompt('provide a noun')
 let verb = prompt('provide a verb')
 let adverb = prompt('provide an adverb')
-let place = promt('provide a place')
+let place = prompt('provide a place')
 let main = prompt('Name our sweetmaker')
 let activity = prompt('name an activity')
 
