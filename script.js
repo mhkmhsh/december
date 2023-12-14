@@ -7,9 +7,7 @@ let place = promt('provide a place')
 let main = prompt('Name our sweetmaker')
 let activity = prompt('name an activity')
 
-let story = ` One day a  ${adjective} sweetmaker decided he wanted to go to ${place}, he had always wanted a ${relationship}. this man was named ${main}, his trip to ${place} was going to do ${activity}
- ${noun}
- He loved to ${verb} every single day, he was very good at ${adverb}`
+let story = ` One day a  ${adjective} sweetmaker decided he wanted to go to ${place}, he had always wanted a ${relationship}. this man was named ${main}, his trip to ${place} was going to do ${activity} He loved to ${verb} every single day, he was very good at ${adverb}. The ${noun} was upset that he wanted to go on this trip `
 
 let madLibOutputDiv = document.getElementById('madLibOutput')
 
