@@ -1,7 +1,7 @@
 
 body{
 
-    background-color:#f2aea5;
+    background-color:#c71700;
     transition:4s;
   
     position:relative;
@@ -20,31 +20,31 @@ body{
   
   body.number1{
   
-     background: #ffffff;
+     background: #b60000;
     
     
   }
   @keyframes example1{
     0%{
      
-      background:#f2aea5;
+      background:#e01a00;
   
     }
     50%{
-      background:#fff0da;
+      background:#d87605;
       border-radius: 100px;
      
     }
     75%{
-      background:#ffddcc;
+      background:#1b6100;
       border-radius: 100px;
      
     }
     90%{
-      background:#e88c7d;
+      background:#409ec4;
     }
     100%{
-        background:#f2aea5;
+        background:#db1a00;
     }
   }
   
